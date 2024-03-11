@@ -1,0 +1,43 @@
+baseURL: "https://yurukute.github.io/"
+languageCode: "en-us"
+title: "My portfolio"
+theme: "PaperMod"
+copyRight: "&copy; 2024"
+
+params:
+  defaultTheme: "dark"
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Dung" # optional default will be site title
+    subtitle: "{{< typed \"typed.html\" >}}"
+    imageUrl: "/favicon.ico"
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Download my CV
+        url: "#"
+  socialIcons:
+    - name: "linkedin"
+      url: "https://linkedin.com/in/yurukute"
+    - name: "hackerrank"
+      url: "https://hackerrank.com/yurukute"
+    - name: "github"
+      url: "https://github.com/yurukute"
+menu:
+  main:
+    - identifier: aboutme
+      name: About Me
+      url: "/about_me"
+      weight: 10
+    - identifier: experience
+      name: Experience
+      url: "/experience"
+      weight: 12
+    - identifire: projects
+      name: Personal Projects
+      url: "/projects"
+      weight: 14
+    - identifier: blog
+      name: My Blog
+      url: "https://yurukute.github.io/Blog/en"
+      weight: 20
