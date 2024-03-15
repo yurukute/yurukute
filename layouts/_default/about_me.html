@@ -1,0 +1,9 @@
+{{- define "main" }}
+<div class="about section" id="about_me">
+    <div class="inner_about">
+        <h1>{{ .Title }}</h1>
+        <img class="profile-picture" src="{{ .Params.picture }}" alt="Picture">
+        <div>{{ .Content }}</div>
+    </div>
+</div>
+{{- end }}

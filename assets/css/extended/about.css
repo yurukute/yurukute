@@ -1,0 +1,15 @@
+.main .about {
+    display: flex;
+    align-items: center;
+}
+
+.about .profile-picture {
+    float: right;
+    width: 33%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.about p {
+    margin: 10px 0px 10px;
+}
