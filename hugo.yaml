@@ -27,15 +27,15 @@ menu:
   main:
     - identifier: aboutme
       name: About Me
-      url: "/about_me"
+      url: "/#about_me"
       weight: 10
     - identifier: experience
       name: Experience
-      url: "/experience"
+      url: "/#experience"
       weight: 12
     - identifire: projects
       name: Personal Projects
-      url: "/projects"
+      url: "/#projects"
       weight: 14
     - identifier: blog
       name: My Blog

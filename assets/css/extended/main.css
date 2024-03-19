@@ -1,0 +1,26 @@
+html {
+    overflow: hidden;
+}
+
+.main {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    align-items: center;
+    max-width: none;
+}
+
+.main .section {
+    max-width: var(--main-width);
+    scroll-snap-align: start;
+}
+
+.main, 
+.main .section,
+.main .section > div {
+    height: calc(100vh - var(--header-height));
+}
