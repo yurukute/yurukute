@@ -1,0 +1,29 @@
+{{ with .Site.GetPage "/experience.md" }}
+<div class="timeline section" id="experience">
+    <h1>{{ .Title }}</h1>
+    <div class="inner_section">
+        {{ range .Params.details }}
+        <div class="duration">{{ .duration }}</div>
+        <div class="timeline_item">
+            {{ if .logo }}
+            <img class="logo" src="{{ .logo }}">
+            {{ end }}
+            <div class="location">
+                <h3 class="name">{{ .name }}</h3>
+                <span class="info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    {{ .location }}
+                </span>
+            </div>
+            <h2 class="position">{{ .position }}</h2>
+            <div>{{ .summary }}</div>
+            <ul class="description">
+                {{ range .description }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

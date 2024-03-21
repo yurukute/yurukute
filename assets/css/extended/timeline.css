@@ -1,0 +1,36 @@
+.timeline_item {
+    margin: var(--gap);
+    padding: var(--gap);
+    background: var(--entry);
+    border-radius: var(--radius);
+    transition: transform .1s;
+    border: 1px solid var(--border);
+}
+
+.timeline_item .logo {
+    width: 20%;
+}
+
+.timeline_item .info {
+    padding: 0px 8px;
+    color: var(--secondary);
+    font-size: 14px;
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.timeline_item .location {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.timeline_item .position {
+    margin: 10px 0px;
+}
+
+.timeline_item ul {
+    margin: 0 30px;
+}
