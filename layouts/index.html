@@ -4,4 +4,11 @@
     {{ partial "index_profile.html" . }}
 </div>
 {{ partial "about_me.html" . }}
+{{ partial "experience.html" . }}
+<div class="section">
+    {{ partial "footer.html" }}    
+</div>
+{{- $typed := resources.Get "js/typed.js" }}
+<script src="{{ $typed.Permalink }}"></script>
+
 {{- end }}

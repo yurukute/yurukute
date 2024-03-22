@@ -6,13 +6,14 @@ copyRight: "&copy; 2024"
 
 params:
   defaultTheme: "dark"
+  hideFooter: "true"
   profileMode:
     enabled: true
-    title: "Hi, I'm Dung" # optional default will be site title
+    title: "Hi, I'm Dung"
     subtitle: "{{< typed \"typed.html\" >}}"
     imageUrl: "/favicon.ico"
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    imageWidth: 120
+    imageHeight: 120
     buttons:
       - name: Download my CV
         url: "#"
@@ -41,3 +42,7 @@ menu:
       name: My Blog
       url: "https://yurukute.github.io/Blog/en"
       weight: 20
+
+blackfriday:
+  extensions: 
+    - hardLineBreak

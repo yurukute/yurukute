@@ -12,15 +12,19 @@ html {
     scroll-behavior: smooth;
     align-items: center;
     max-width: none;
+    height: calc(100vh - var(--header-height));
+}
+
+.main .profile,
+.main .inner_section {
+    min-height: calc(100vh - var(--header-height));
 }
 
 .main .section {
-    max-width: var(--main-width);
     scroll-snap-align: start;
 }
 
-.main, 
-.main .section,
-.main .section > div {
-    height: calc(100vh - var(--header-height));
+.main .inner_section {
+    padding: var(--gap) 0px;
+    max-width: var(--main-width);
 }
