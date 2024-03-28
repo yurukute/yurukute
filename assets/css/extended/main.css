@@ -16,7 +16,7 @@ html {
 }
 
 .main .profile,
-.main .inner_section {
+.main .inner-section {
     min-height: calc(100vh - var(--header-height));
 }
 
@@ -24,7 +24,7 @@ html {
     scroll-snap-align: start;
 }
 
-.main .inner_section {
-    padding: var(--gap) 0px;
-    max-width: var(--main-width);
+.main .inner-section {
+    padding: var(--gap);
 }
+

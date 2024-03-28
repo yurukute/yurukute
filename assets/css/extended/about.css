@@ -3,6 +3,10 @@
     align-items: center;
 }
 
+.about .inner-section {
+    max-width: var(--main-width);
+}
+
 .about .profile-picture {
     float: right;
     width: 33%;

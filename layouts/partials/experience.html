@@ -1,27 +1,32 @@
 {{ with .Site.GetPage "/experience.md" }}
 <div class="timeline section" id="experience">
     <h1>{{ .Title }}</h1>
-    <div class="inner_section">
-        {{ range .Params.details }}
-        <div class="duration">{{ .duration }}</div>
-        <div class="timeline_item">
-            {{ if .logo }}
-            <img class="logo" src="{{ .logo }}">
-            {{ end }}
-            <div class="location">
-                <h3 class="name">{{ .name }}</h3>
-                <span class="info">
-                    <i class="fa-solid fa-location-dot"></i>
-                    {{ .location }}
-                </span>
-            </div>
-            <h2 class="position">{{ .position }}</h2>
-            <div>{{ .summary }}</div>
-            <ul class="description">
-                {{ range .description }}
-                <li>{{ . }}</li>
+    <div class="inner-section">
+        {{ range .Params.entries }}
+        <div class="timeline-item">
+            <h3 class="duration">{{ .duration }}</h3>
+            <div class="details post-entry">
+                {{ if .logo }}
+                <img class="logo" src="{{ .logo }}">
                 {{ end }}
-            </ul>
+                <div class="location">
+                    <h3>{{ .name }}</h3>
+                    <span class="info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        {{ .location }}
+                    </span>
+                </div>
+                <h2 class="position">{{ .position }}</h2>
+                <div class="description">
+                    {{ .summary }}
+                    <ul>
+                    {{ range .description }}
+                        <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+                </div>
+                
+            </div>
         </div>
         {{ end }}
     </div>
