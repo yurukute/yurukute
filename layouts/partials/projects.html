@@ -1,0 +1,16 @@
+{{ with .Site.GetPage "/projects.md" }}
+<div class="project section" id="projects">
+    <h1>{{ .Title }}</h1>
+    <div class="inner-section">
+        {{ range .Params.entries }}
+        <a class="post-entry" href="{{ .link }}">
+            {{ if .thumbnail }}
+            <img alt="" src="{{ .thumbnail }}" />
+            {{ end }}
+            <h2>{{ .name }}</h2>
+            <div class="entry-content">{{ .summary }}</div>
+        </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

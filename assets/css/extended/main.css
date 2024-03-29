@@ -22,9 +22,9 @@ html {
 
 .main .section {
     scroll-snap-align: start;
+    padding: 0px var(--gap);
 }
 
 .main .inner-section {
-    padding: var(--gap);
+    padding: var(--gap) 0px;
 }
-

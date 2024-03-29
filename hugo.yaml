@@ -1,8 +1,8 @@
 baseURL: "https://yurukute.github.io/"
 languageCode: "en-us"
-title: "My portfolio"
+title: "My Portfolio"
 theme: "PaperMod"
-copyRight: "&copy; 2024"
+copyRight: "&copy; 2024 [My Portfolio](/)"
 
 params:
   defaultTheme: "dark"

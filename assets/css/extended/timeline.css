@@ -11,7 +11,7 @@
     display: block;
     content: " ";
     width: 3px;
-    height: calc(100% - var(--footer-height));
+    height: calc(99% - var(--footer-height));
     left: 50%;
     position: absolute;
     background: var(--primary);

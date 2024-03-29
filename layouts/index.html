@@ -1,13 +1,16 @@
 {{- define "main" }}
+
 <div class="section">
     <div class="bg-container"></div>
     {{ partial "index_profile.html" . }}
 </div>
 {{ partial "about_me.html" . }}
 {{ partial "experience.html" . }}
+{{ partial "projects" . }}
 <div class="section">
-    {{ partial "footer.html" }}    
+{{ partial "footer.html" }}
 </div>
+
 {{- $typed := resources.Get "js/typed.js" }}
 <script src="{{ $typed.Permalink }}"></script>
 

@@ -1,0 +1,19 @@
+.project .inner-section {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    gap: var(--gap);
+}
+
+.project .post-entry {
+    flex: 1 0 calc(25% - var(--gap));
+}
+
+.project .post-entry img {
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.project .entry-content {
+    -webkit-line-clamp: 5;
+}
