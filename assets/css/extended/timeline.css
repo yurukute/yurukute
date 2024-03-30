@@ -55,6 +55,10 @@
     left: initial;
 }
 
+.timeline-item .details {
+    opacity: 0;
+}
+
 .timeline-item .logo {
     width: 50%;
     margin: 0;

@@ -3,7 +3,7 @@
     <h1>{{ .Title }}</h1>
     <div class="inner-section">
         {{ range .Params.entries }}
-        <a class="post-entry" href="{{ .link }}">
+        <a class="project-item post-entry" href="{{ .link }}">
             {{ if .thumbnail }}
             <img alt="" src="{{ .thumbnail }}" />
             {{ end }}
