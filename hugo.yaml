@@ -16,14 +16,15 @@ params:
     imageHeight: 120
     buttons:
       - name: Download my CV
-        url: "#"
+        url: "https://onedrive.live.com/download?resid=C05204CB1EAA4747%217334&authkey=!AGj5TABHunvTThU&em=2"
   socialIcons:
     - name: "linkedin"
-      url: "https://linkedin.com/in/yurukute"
+      url: "https://linkedin.com/in/nkdung"
     - name: "hackerrank"
       url: "https://hackerrank.com/yurukute"
     - name: "github"
       url: "https://github.com/yurukute"
+
 menu:
   main:
     - identifier: aboutme
