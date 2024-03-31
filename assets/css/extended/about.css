@@ -24,3 +24,7 @@
     gap: var(--gap);
     margin-top: var(--gap);
 }
+
+.badges img {
+    width: 110px
+}
