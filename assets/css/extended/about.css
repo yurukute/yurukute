@@ -17,3 +17,10 @@
 .about p {
     margin: 10px 0px 10px;
 }
+
+.about .badges {
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gap);
+    margin-top: var(--gap);
+}

@@ -4,6 +4,13 @@
         <h1>{{ .Title }}</h1>
         <img class="profile-picture" src="{{ .Params.picture }}" alt="Picture">
         <div>{{ .Content }}</div>
+        <div class="badges">
+            {{ range .Params.badges }}
+            <a href="{{ .url }}">
+                <img alt="{{ .name }}" src="{{ .img }}" />
+            </a>
+            {{ end }}
+        </div>
     </div>
 </div>
 {{ end }}
