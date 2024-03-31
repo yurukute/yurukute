@@ -11,7 +11,7 @@ params:
     enabled: true
     title: "Hi, I'm Dung"
     subtitle: "{{< typed \"typed.html\" >}}"
-    imageUrl: "/favicon.ico"
+    imageUrl: "/yurukute/favicon.ico"
     imageWidth: 120
     imageHeight: 120
     buttons:
