@@ -2,7 +2,10 @@ const trigger = (window.innerHeight / 5) * 4;
 const main = document.getElementsByTagName("main")[0]
 
 main.addEventListener("scroll", () => {
-    showContent(".details", ["animate__fadeInRight", "animate__fadeInLeft"]);
+    if (window.innerWidth <= 770)
+        showContent(".details", "animate__fadeInRight");
+    else
+        showContent(".details", ["animate__fadeInRight", "animate__fadeInLeft"]);
     showContent(".project-item", "animate__fadeInUp")
 }, false);
 

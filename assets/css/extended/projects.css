@@ -8,13 +8,33 @@
 .project .post-entry {
     flex: 1 0 calc(25% - var(--gap));
     opacity: 0;
+    margin-bottom: 0;
 }
 
 .project .post-entry img {
+    max-width: 200px;
     border-radius: 5px;
     margin-bottom: 8px;
 }
 
 .project .entry-content {
     -webkit-line-clamp: 5;
+}
+
+@media (max-width: 1366px) {
+    .project .post-entry {
+        flex: 1 0 calc(50% - var(--gap));
+    }
+}
+
+@media (max-width: 880px) {
+    .project .inner-section {
+        flex-direction: column;
+    }
+
+    .project .post-entry img {
+        max-width: 150px;
+        float: left;
+        margin-right: var(--gap);
+    }
 }
