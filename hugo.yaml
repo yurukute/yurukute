@@ -1,7 +1,8 @@
-baseURL: "https://yurukute.github.io/yurukute"
+baseURL: "https://yurukute.github.io/"
 languageCode: "en-us"
 title: "My Portfolio"
 theme: "PaperMod"
+publishDir: "yurukute.github.io"
 copyRight: "&copy; 2024 [My Portfolio](/)"
 
 params:
@@ -11,7 +12,7 @@ params:
     enabled: true
     title: "Hi, I'm Dung"
     subtitle: "{{< typed \"typed.html\" >}}"
-    imageUrl: "/yurukute/favicon.ico"
+    imageUrl: "/favicon.ico"
     imageWidth: 120
     imageHeight: 120
     buttons:
