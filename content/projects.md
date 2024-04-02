@@ -14,6 +14,6 @@ entries:
   summary: "Water observing system integrated with Vernier sensors using Matrix-310 IoT gateway"
 - name: "AquaSenseLinux"
   thumbnail: "https://www.artila.com/enewsletter/2023/images/MATRIX-752_R_without.png"
-  link: "https://github.com/yurukute/AquaSense"
+  link: "https://github.com/yurukute/AquaSenseLinux"
   summary: "Water observing system integrated with Vernier sensors using Matrix-752 (ARM Cortex-A7) IoT gateway"
 ---
