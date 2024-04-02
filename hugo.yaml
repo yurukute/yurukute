@@ -1,8 +1,7 @@
-baseURL: "https://yurukute.github.io/"
+baseURL: "https://nkdung.netlify.app/"
 languageCode: "en-us"
 title: "My Portfolio"
 theme: "PaperMod"
-publishDir: "yurukute.github.io"
 copyRight: "&copy; 2024 [My Portfolio](/)"
 
 params:
