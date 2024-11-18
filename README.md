@@ -2,9 +2,10 @@
 
 Welcome to my GitHub!
 
-- 👩‍💻 I'm a software developer
-- 🤖 I love embedded systems and robotics
-- 📖 I also [blog](https://yurukute.github.io/Blog/en)
+- 👩‍💻 Software Engineering graduated
+- 🤖 Working as an Embedded developer
+- 🗣️ TOEIC 900, JLPT N4, NLTV C2 
+- 📖 [Blogging](https://yurukute.github.io/Blog/en) also
 
 ![Codewars badge](https://www.codewars.com/users/yurukute/badges/large)
 
